@@ -1,0 +1,69 @@
+body{
+	font-family: Georgia;
+}
+/*header start*/
+.mini_menu{
+	background: #BA2E1F;
+}
+.mini_menu ul li a{
+	padding: 0; 
+	margin-right: 5px;
+	font-family: Georgia;
+	font-size: 14px;
+	color: rgba(255,255,255,0.9);
+}
+.mini_menu ul li a:hover{
+	color: #fff;
+}
+.mini_menu ul li a::after{
+  content: "|";
+  padding-left: 10px;
+}
+.mini_menu ul li:last-child a::after{
+  content: "";
+}
+.mini_menu input{
+	padding-right: 35px;
+}
+.mini_menu .form-control:focus{
+	z-index: 0;
+}
+.pos{
+	position: absolute;
+	top: 12%;
+	right: 0;
+}
+.top_bar i{
+	background: #000;
+	transition: 0.3s;
+}
+.top_bar i:hover{
+	background: #ee802f;
+}
+.navigationbar a{
+	font-family: Georgia;
+	color: #fff;
+}
+.navigationbar a:hover{
+	color: #ba2e1f;
+}
+/*header end*/
+/*banner start*/
+.banner h1,.banner h2{
+	font-size: 70px;
+}
+/*banner end*/
+/*intro*/
+.client h6::before{
+  content: url(../images/q.png);
+  padding-right: 10px;
+}
+/*feedback start*/
+.quick_link ul li{
+	padding: 0;
+}
+.quick_link ul li::before{
+  content: "» ";
+}
+
+/*feedback end*/
