@@ -25,13 +25,11 @@ body{
 .mini_menu input{
 	padding-right: 35px;
 }
-.mini_menu .form-control:focus{
-	z-index: 0;
-}
 .pos{
 	position: absolute;
 	top: 12%;
 	right: 0;
+	z-index: 3;
 }
 .top_bar i{
 	background: #000;
