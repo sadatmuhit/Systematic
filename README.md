@@ -1,4 +1,4 @@
 # systematic
 responsive psd to html
 
-Live Link: https://sadatmuhit.github.io/systematic/
+Live Link: https://sadatmuhit.github.io/Systematic/
