@@ -1,33 +1,103 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-.banner h1,.banner h2{
-	font-size: 30px;
-}	
-.banner img{
-	margin-bottom: 20px;
+    header,
+    .social {
+        display: none;
+    }
+    #navigation ul li a {
+        padding: 8px 0 0 !important;
+    }
+    #banner img {
+        display: block;
+        margin: auto;
+    }
+    .b_content {
+        margin-top: 20px;
+    }
+    .b_content h1 {
+        font-size: 20px;
+    }
+    .cmn_link {
+        float: none;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .service,
+    .client,
+    .single {
+        margin-top: 40px;
+    }
+    .service {
+        text-align: center;
+    }
+    .service .title {
+        text-align: left;
+    }
+    .service img {
+        margin-bottom: 16px;
+    }
+    #blog {
+        padding: 0 0 40px;
+    }
+    .single .subtitle {
+        margin-bottom: 16px;
+    }
 }
-}
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-.banner h1,.banner h2{
-	font-size: 50px;
-}	
+    header,
+    .social {
+        display: none;
+    }
+    #navigation ul li a {
+        padding: 8px 0 0 !important;
+    }
+    #banner img {
+        display: block;
+        margin: auto;
+    }
+    .b_content {
+        margin-top: 20px;
+    }
+    .b_content h1 {
+        font-size: 36px;
+    }
+    .cmn_link {
+        float: none;
+    }
+    .service,
+    .client,
+    .single {
+        margin-top: 40px;
+    }
 }
-
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-.banner h1,.banner h2{
-	font-size: 50px;
+    .b_content h1 {
+        font-size: 42px;
+    }
+    .cmn_link {
+        float: none;
+    }
+    .title {
+        font-size: 23px;
+    }
+    .service img {
+        margin-bottom: 16px;
+    }
+    .client h3::before {
+        content: no-close-quote;
+    }
+    .single hr {
+        display: none;
+    }
 }
-}
-
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+    .b_content h1 {
+        font-size: 56px;
+    }
 }
-
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	
-}
+@media (min-width: 1200px) {}
