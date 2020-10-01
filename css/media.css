@@ -83,11 +83,8 @@
     .title {
         font-size: 23px;
     }
-    .service img {
-        margin-bottom: 16px;
-    }
-    .client h3::before {
-        content: no-close-quote;
+    .service  {
+        margin-top: 40px;
     }
     #blog {
         padding: 40px 0 0;
