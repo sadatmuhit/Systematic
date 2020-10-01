@@ -89,8 +89,11 @@
     .client h3::before {
         content: no-close-quote;
     }
-    .single hr {
-        display: none;
+    #blog {
+        padding: 40px 0 0;
+    }
+    .single {
+        margin-bottom: 40px;
     }
 }
 /*Large devices (desktops, 992px and up)*/
