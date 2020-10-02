@@ -105,6 +105,9 @@ header form {
 .about p {
     margin: 16px 0;
 }
+.service img{
+    margin-right: 20px;
+}
 /*about end*/
 /*service start*/
 .subtitle {
